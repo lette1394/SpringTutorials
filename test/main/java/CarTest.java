@@ -9,7 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("/context002.xml")
+@ContextConfiguration("/contextTest.xml")
 public class CarTest {
 
     @Autowired

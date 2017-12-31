@@ -1,6 +1,9 @@
 package main.java;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Car {
+    @Autowired
     Tire tire;
 
     public Tire getTire() {
