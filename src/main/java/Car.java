@@ -2,8 +2,10 @@ package main.java;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.annotation.Resource;
+
 public class Car {
-    @Autowired
+    @Resource
     Tire tire;
 
     public Tire getTire() {
